@@ -3,7 +3,11 @@
 import { AppRoutes } from "./routes/AppRoutes";
 
 function App() {
-  return <AppRoutes />;
+  return (
+    <div className=" bg-dark-neutral-200">
+      <AppRoutes />
+    </div>
+  );
 }
 
 export default App;
